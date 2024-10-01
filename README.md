@@ -25,7 +25,7 @@
 ### 1.2 HTML Document Structure
 - Har HTML document ka basic structure kuch is tarah hota hai:
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +37,9 @@
     <h1>Hello World!</h1>
     <p>This is my first HTML page.</p>
 </body>
-</html><!DOCTYPE html>: Document type declaration.<html>: HTML document ka root element.<head>: Document ka metadata (title, character set, etc.).<body>: Document ka visible content.1.3 HTML Elements and TagsHTML elements ko tags se define kiya jata hai. Tags ka syntax kuch is tarah hota hai:<tagname>Content goes here</tagname>Example: <p>This is a paragraph.</p>1.4 Common HTML TagsHeadings: <h1> se <h6> tak headings.Paragraphs: <p> tag paragraphs ke liye.Links: <a href="url">Link text</a> se hyperlinks banate hain.Images: <img src="image-url" alt="description"> se images include karte hain.Lists:Unordered lists: <ul><li>Item</li></ul>Ordered lists: <ol><li>Item</li></ol>1.5 Attributes in HTMLHTML tags mein additional information provide karne ke liye attributes ka use hota hai. Attributes ka syntax kuch is tarah hota hai:<tagname attribute="value">Content</tagname>Example: <a href="https://www.example.com" target="_blank">Visit Example</a>1.6 Forms in HTMLHTML forms user input collect karne ke liye use hoti hain. Form ka basic structure kuch is tarah hota hai:<form action="submit-url" method="POST">
+</html>
+```
+<!DOCTYPE html>: Document type declaration.<html>: HTML document ka root element.<head>: Document ka metadata (title, character set, etc.).<body>: Document ka visible content.1.3 HTML Elements and TagsHTML elements ko tags se define kiya jata hai. Tags ka syntax kuch is tarah hota hai:<tagname>Content goes here</tagname>Example: <p>This is a paragraph.</p>1.4 Common HTML TagsHeadings: <h1> se <h6> tak headings.Paragraphs: <p> tag paragraphs ke liye.Links: <a href="url">Link text</a> se hyperlinks banate hain.Images: <img src="image-url" alt="description"> se images include karte hain.Lists:Unordered lists: <ul><li>Item</li></ul>Ordered lists: <ol><li>Item</li></ol>1.5 Attributes in HTMLHTML tags mein additional information provide karne ke liye attributes ka use hota hai. Attributes ka syntax kuch is tarah hota hai:<tagname attribute="value">Content</tagname>Example: <a href="https://www.example.com" target="_blank">Visit Example</a>1.6 Forms in HTMLHTML forms user input collect karne ke liye use hoti hain. Form ka basic structure kuch is tarah hota hai:<form action="submit-url" method="POST">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <input type="submit" value="Submit">
